@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${NunitoSans.className} antialiased dark:bg-slate-500`}
+        className={` ${NunitoSans.className} antialiased darkTheme`}
       >
           <ThemeProviderWrapper>
             <Navbar/>

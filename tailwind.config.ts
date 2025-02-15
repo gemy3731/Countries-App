@@ -1,6 +1,7 @@
-import type { Config } from "tailwindcss";
+import flowbite from "flowbite-react/tailwind";
 
-export default {
+/** @type {import('tailwindcss').Config} */
+const config = {
   darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,4 +13,5 @@ export default {
     },
   },
   plugins: [],
-} satisfies Config;
+}
+export default config;
